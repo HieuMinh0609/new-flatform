@@ -1,4 +1,13 @@
 package com.example.service.impl;
 
-public class NewService {
+import com.example.service.INewService;
+import org.springframework.stereotype.Service;
+
+@Service
+public class NewService implements INewService {
+
+    @Override
+    public void save() {
+
+    }
 }

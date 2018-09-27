@@ -1,4 +1,8 @@
 package com.example.service;
 
-public interface INewService {
+import org.springframework.stereotype.Service;
+
+
+public interface INewService{
+    void save();
 }
